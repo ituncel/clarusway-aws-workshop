@@ -41,7 +41,7 @@ Resources:
                     pip3 install flask
                 wget -P templates https://raw.githubusercontent.com/ituncel/clarusway-aws-workshop/master/001-roman-numerals-converter/templates/index.html
                 wget -P templates https://raw.githubusercontent.com/ituncel/clarusway-aws-workshop/master/001-roman-numerals-converter/templates/result.html
-                wget https://raw.githubusercontent.com/callahan-cw/clarusway-aws-workshop/master/001-roman-numerals-converter/app.py
+                wget https://raw.githubusercontent.com/ituncel/clarusway-aws-workshop/master/001-roman-numerals-converter/app.py
                 python3 app.py
 
 
