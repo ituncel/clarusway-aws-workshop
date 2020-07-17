@@ -21,5 +21,5 @@ def main_post():
         return render_template('index.html', developer_name='Ibrahim', not_valid=True)
     return render_template('result.html', developer_name='Ibrahim', number_decimal=number, number_roman=convert(number))
 if __name__ == '__main__':
-    app.run(debug=True)
-    #app.run(host='0.0.0.0', port=80)
+    #app.run(debug=True)
+    app.run(host='0.0.0.0', port=80)
